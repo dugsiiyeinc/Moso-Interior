@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+:root {
+  --white-color: #ffffff;
+  --primary-color: #ffd74f;
+  --secondary-color: #f65129;
+  --section-bg-color: #f9f9f9;
+  --custom-btn-bg-color: #00a05d;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #e9eaeb;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+}
+/* header.design.css start*/
+
+header {
+  border-color: var(--white-color);
+  transition: all 0.3s;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  height: 72px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .logo {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  /* gap: 2rem; */
+}
+header nav ul li a {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: var(--p-color);
+  font-weight: 500;
+  height: 72px;
+  transition: 0.3s ease-in-out;
+  padding: 20px 27px;
+ 
+}
+header nav ul li a:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+/* header.design.css end*/
