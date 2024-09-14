@@ -19,7 +19,7 @@ header {
   transition: all 0.3s;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   height: 72px;
-  z-index: 999;
+  z-index: 9999;
   position: sticky;
   top: 0;
 }
@@ -165,7 +165,7 @@ header .mobileScreen {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 .up-down:hover{
   background-color: var(--secondary-color);
