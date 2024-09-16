@@ -43,8 +43,9 @@
   border-radius: 16px;
 }
 
-.address--colm span {
+.adres-icon {
   margin-right: 8px;
+  margin-top: 0.5rem;
   color: #f65129;
 }
 
@@ -92,8 +93,120 @@ footer {
 
 .footer {
   padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+
+.foo-logo {
+  width: 45%;
+}
+
+.footer-logo:link,
+.footer-logo:visited {
+  display: inline-block;
+  font-size: 2.25rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+.footer-logo:hover,
+.footer-logo:active {
+  color: #ffd74f;
+  text-decoration: underline #128c7e;
+}
+
+.foo-logo p {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.tooplate-link:link,
+.tooplate-link:visited {
+  color: #717275;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+}
+
+.tooplate-link:hover,
+.tooplate-link:active {
+  color: #f65129;
+}
+
+.footer-address-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.footer-address-top {
+  display: flex;
+  gap: 8rem;
+}
+
+.footer-address-top .adres-icon {
+  color: #fff;
+}
+
+.footer-address-top .tel-email {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-address-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-address-bottom a:link,
+.footer-address-bottom a:visited {
+  transition: all 0.3s;
+}
+
+.footer-address-bottom a:hover,
+.footer-address-bottom a:active {
+  color: #fff;
 }
 
 .copyright {
-  width: 45%;
+  font-size: 14px;
+  font-weight: 300;
+  color: #f9f9f9;
+}
+
+.social-icon-link:link,
+.social-icon-link:visited {
+  font-size: 1.25rem;
+}
+
+.bi-twitter:link,
+.bi-twitter:visited {
+  color: #1da1f2;
+}
+
+.bi-facebook:link,
+.bi-facebook:visited {
+  color: #1877f2;
+}
+
+.bi-instagram:link,
+.bi-instagram:visited {
+  color: #c13584;
+}
+
+.bi-pinterest {
+  fill: #e60023;
+  transition: all 0.3s;
+}
+
+.bi-pinterest:hover {
+  fill: #fff;
+}
+
+.bi-whatsapp:link,
+.bi-whatsapp:visited {
+  color: #128c7e;
 }
