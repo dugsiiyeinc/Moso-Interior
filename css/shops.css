@@ -1,0 +1,161 @@
+img{
+    width: 100%;
+}
+.shop-section {
+    margin-top: 10rem;
+   
+}
+.titles{
+   margin-block: 3rem;
+}
+.sub-title{
+    color: #00A05D;
+    font-size: 20px;
+   
+}
+.main-title{
+    margin-block: 1rem;
+    font-size: 4rem ;
+    color: #212529;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.grid-container1 img{
+    border-radius: 1.5rem;
+}
+.grid-container1 div h4{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-block: 3rem;
+    gap: 3rem;
+}
+.grid-container2 img{
+    border-radius: 1.5rem;
+}
+.grid-container2 div h4{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.images{
+    position: relative;
+}
+
+.images .notification-icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  
+}
+.love-icon{
+    background-color: #fff;
+    color: #808080;
+    padding: 20px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1rem;
+    width: 4rem;
+    border-radius: 10px;
+}
+.money{
+    background-color: #ffffff;
+    padding: 5px;  
+    border-radius: 5px;
+}
+.money span{
+    color: #f65129;
+   
+}
+.review-section{
+    background-color: #f1f4f2;
+    height: 500px;
+   padding-block:2rem ;
+   margin-top: 10rem;
+}
+.flex-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 353px;
+    height: 261px;   
+}
+.flex-container .card1{
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.card h4{
+   padding: 50px 40px;
+    font-size: 32px;
+    line-height: 2.1rem;
+    font-weight: 600;
+    color: #000000;
+   
+   
+   
+}
+.card .info{
+    background-color: #f65129;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   
+}
+.flex-container .persons{
+    background-color: rgb(247, 241, 241);
+     border-radius: 2rem;
+
+ }
+
+.flex-container .persons h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    padding: 60px;
+}
+.info {
+    bottom: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.rating-icons .fa{
+    color:#f8f134 ;
+    font-size: 12px;
+}
+.info h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.info span{
+    font-size: 16px;
+}
