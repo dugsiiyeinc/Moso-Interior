@@ -334,6 +334,13 @@ footer {
   .footer-address-bottom {
     flex-direction: column;
   }
+  .name {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .firs-name, .last-name, .email  {
+  width: 100%;
+  }
 }
 
 /* medium */
