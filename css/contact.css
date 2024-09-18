@@ -32,6 +32,8 @@
   background-color: #f9f9f9;
   padding: 3.125rem;
   border-radius: 1rem;
+
+  flex: 1;
 }
 
 .form {
@@ -124,6 +126,8 @@
   gap: 1rem;
   border-top: 20px solid #f65129;
   border-radius: 1rem;
+
+  flex: 1;
 }
 
 .adres-icon {
@@ -177,6 +181,8 @@ footer {
 .footer {
   padding-top: 1rem;
   padding-bottom: 6rem;
+
+  /* display: flex; */
 }
 
 .foo-logo {
@@ -226,7 +232,7 @@ footer {
 
 .footer-address-top {
   display: flex;
-  gap: 8rem;
+  justify-content: space-between;
 }
 
 .footer-address-top .adres-icon {
@@ -239,6 +245,12 @@ footer {
 }
 
 .footer-address-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-icons {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -293,3 +305,77 @@ footer {
 .bi-whatsapp:visited {
   color: #128c7e;
 }
+
+.contact-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .flex {
+  display: flex;
+} */
+
+/* Responsive */
+/* Responsive */
+
+/* small */
+
+@media (max-width: 768px) {
+  .footer.grid-2-cols {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-address-top {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-address-bottom {
+    flex-direction: column;
+  }
+}
+
+/* medium */
+
+@media (max-width: 992px) {
+  .contact-grid {
+    flex-direction: column;
+  }
+
+  .footer-logo:link,
+  .footer-logo:visited {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    transition: all 0.3s;
+  }
+
+  .foo-logo p {
+    font-size: 1rem;
+  }
+
+  .tooplate-link:visited,
+  .tooplate-link:link {
+    font-size: 1rem;
+  }
+
+  .footer-contact-info h3 {
+    font-size: 1rem;
+  }
+
+  .footer-address h3 {
+    font-size: 1rem;
+  }
+
+  .tel-email a:link {
+    font-size: 0.75rem;
+  }
+
+  .adres-icon {
+    font-size: 1rem;
+  }
+}
+
+/* large */
