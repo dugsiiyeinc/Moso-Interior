@@ -22,7 +22,7 @@
 
 <body>
 
-  <header>
+  <header id="home">
     <div class="container">
       <nav>
         <div class="herder_logo">
@@ -31,11 +31,11 @@
           </a>
         </div>
         <ul>
-          <li><a href="/main.html" class="active">home</a></li>
-          <li><a href="/main.html">about</a></li>
-          <li><a href="/main.html">shop</a></li>
-          <li><a href="/main.html">reviews</a></li>
-          <li><a href="/main.html">contact</a></li>
+          <li><a href="#home" class="active">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#shop">shop</a></li>
+          <li><a href="#reviews">reviews</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
 
         <div id="menu-toggle">
@@ -47,7 +47,7 @@
       <div class="container">
         <ul id="menu" class="hidden">
           <li><a href="/main.html" class="active">home</a></li>
-          <li><a href="/main.html">about</a></li>
+          <li><a href="#about">about</a></li>
           <li><a href="/main.html">shop</a></li>
           <li><a href="/main.html">reviews</a></li>
           <li><a href="/main.html">contact</a></li>
@@ -89,7 +89,7 @@
 
 
   <!-- About section -->
-  <section class="container about-section">
+  <section class="container about-section" id="about">
     <div class="our-story">
       <div class="our-story-left">
         <div class="title">
@@ -141,7 +141,7 @@
     </div>
   </section>
   <!-- shops  -->
-  <section class="shop-section">
+  <section class="shop-section" id="shop">
     <div class="container">
       <small class="sub-title">Moso Design Shop</small>
       <h1 class="main-title"> <span>Interior</span> Products</h1>
@@ -278,7 +278,7 @@
     </div>
   </section>
 
-  <section class="review-section">
+  <section class="review-section" id="reviews">
     <div class="container">
       <h5 class="sub-title">Happy customers.</h5>
       <h2 class="main-title">Reviews</h2>
@@ -400,8 +400,11 @@
 
       </div>
     </div>
+   
   </section>
-
+ <div class="bg-wave">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fill-opacity="1" d="M0,0L26.7,16C53.3,32,107,64,160,96C213.3,128,267,160,320,160C373.3,160,427,128,480,122.7C533.3,117,587,139,640,170.7C693.3,203,747,245,800,229.3C853.3,213,907,139,960,117.3C1013.3,96,1067,128,1120,165.3C1173.3,203,1227,245,1280,266.7C1333.3,288,1387,288,1413,288L1440,288L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    </div>
 
 
   <!-- Contact -->

@@ -286,7 +286,9 @@ img {
 .review-section .card-review .card .rating-icons i {
     color: #ffd74f;
 }
-
+.bg-wave{
+  margin-top: -69px;
+}
 @media (max-width: 1024px) {
   .grid-container {
     flex-direction: column;
