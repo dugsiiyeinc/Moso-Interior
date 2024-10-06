@@ -115,8 +115,8 @@ img {
 .grid-container .card1 .show-info,
 .grid-container .card2 .show-info {
   position: absolute;
-  top: 40%;
-  left: 46%;
+  top: 31%;
+  left: 39%;
   background-color: #ffd74f;
   width: 100px;
   height: 100px;
@@ -130,8 +130,8 @@ img {
 .card4 .show-info,
 .card5 .show-info {
   position: absolute;
-  top: 29%;
-  left: 40%;
+  top: 21%;
+  left: 30%;
   background-color: #ffd74f;
   width: 100px;
   height: 100px;
@@ -308,7 +308,7 @@ img {
 @media (max-width: 768px) {
   .grid-container .card .show-info {
     position: absolute;
-    top: 19%;
+    top: 25%;
     left: 36%;
   }
   .pagination-flex .item .chevron-left,
