@@ -198,6 +198,7 @@ img {
 .pagination-flex .item ul li:hover {
   background-color: #f65129;
   color: white;
+  cursor: pointer;
 }
 .pagination-flex .item ul li.active {
   background-color: #f65129;

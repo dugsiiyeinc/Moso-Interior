@@ -8,7 +8,11 @@
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
-
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
 .contact-header span {
   font-weight: 600;
   font-size: 1rem;
@@ -164,7 +168,7 @@
 
 .contact-info a:link,
 .contact-info a:visited {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #fff;
 }
 
@@ -338,8 +342,10 @@ footer {
     flex-direction: column;
     gap: 2rem;
   }
-  .firs-name, .last-name, .email  {
-  width: 100%;
+  .firs-name,
+  .last-name,
+  .email {
+    width: 100%;
   }
 }
 

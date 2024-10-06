@@ -3,6 +3,8 @@ const menu = document.getElementById('menu');
 
 const icon = document.getElementById('icon');
 
+
+
 menuToggle.addEventListener('click', function () {
   menu.classList.toggle('show');
 
@@ -19,14 +21,40 @@ menuToggle.addEventListener('click', function () {
 
 // active class
 
-document.querySelectorAll("nav ul li a").forEach((link) => {
+document.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", function (event) {
     event.preventDefault();
-    document.querySelectorAll("nav ul li a").forEach((link) => {
+    document.querySelectorAll("a").forEach((link) => {
       link.classList.remove("active");
     });
     console.log('aa')
     this.classList.add("active");
+  });
+});
+document.querySelectorAll("a[href^='#']").forEach((link) => {
+  link.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent default anchor click behavior
+
+      // Remove active class from all links
+      document.querySelectorAll("a").forEach((link) => {
+          link.classList.remove("active");
+      });
+
+      // Add active class to the clicked link
+      this.classList.add("active");
+
+      // Get the target section based on the href attribute
+      const targetId = this.getAttribute("href");
+      const targetSection = document.querySelector(targetId);
+
+      // Smooth scroll to the target section if it exists
+      if (targetSection) {
+          targetSection.scrollIntoView({ behavior: "smooth" });
+      }
+
+      // Optionally navigate to the section after scrolling (if needed)
+      // Remove this line if you want to avoid changing the URL hash
+      window.history.pushState(null, null, targetId);
   });
 });
 
