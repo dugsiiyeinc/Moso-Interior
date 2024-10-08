@@ -73,7 +73,7 @@ let index = 0;
 
 function changeBackground() {
   setTimeout(() => {
-    document.getElementById('bg-image').style.backgroundImage = images[index];
+    document.getElementById('hero').style.backgroundImage = images[index];
   }, 10); // 10 milliseconds
 
   index = (index + 1) % images.length; 
